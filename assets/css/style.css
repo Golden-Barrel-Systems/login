@@ -91,6 +91,10 @@ label {
   cursor: pointer;
 }
 
+.btn-logar:hover {
+  background-color: #ffc13b;
+}
+
 .create-account {
   align-self: flex-start;
   margin-left: 150px;
@@ -101,6 +105,10 @@ label {
   color: #f6b11c;
 }
 
-a{
-    text-decoration: none;
+.create-account span:hover {
+  color: #ffc13b;
+}
+
+a {
+  text-decoration: none;
 }
