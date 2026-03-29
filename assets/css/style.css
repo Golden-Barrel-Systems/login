@@ -90,10 +90,17 @@ label {
   background-color: #f6b11c;
   cursor: pointer;
 }
+
+.create-account {
+  align-self: flex-start;
+  margin-left: 150px;
 }
 
-label{
-    color: #7C838A;
-    font-weight: 500;
-    font-size: 20px;
+.create-account span {
+  cursor: pointer;
+  color: #f6b11c;
+}
+
+a{
+    text-decoration: none;
 }
