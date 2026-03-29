@@ -78,6 +78,18 @@ label {
   font-weight: 500;
   font-size: 20px;
 }
+
+.btn-logar {
+  color: black;
+  font-weight: 500;
+  font-size: 20px;
+  margin-top: 40px;
+  border: none;
+  padding: 15px 100px;
+  border-radius: 10px;
+  background-color: #f6b11c;
+  cursor: pointer;
+}
 }
 
 label{
