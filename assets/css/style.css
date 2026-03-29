@@ -95,6 +95,10 @@ label {
   background-color: #ffc13b;
 }
 
+.btn-logar:focus, .create-account a:focus {
+  outline: 2px solid black;
+}
+
 .create-account {
   align-self: flex-start;
   margin-left: 150px;
