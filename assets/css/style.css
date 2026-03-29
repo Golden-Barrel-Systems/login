@@ -60,16 +60,24 @@ html {
 }
 
 .input {
+  box-sizing: border-box;
   width: 100%;
-  padding: 25px;
+  padding: 15px 0px 15px 30px;
   border: none;
   border-radius: 20px;
   background-color: rgba(176, 186, 195, 0.4);
-  font-size: 15px;
+  font-size: 18px;
 }
 
 .input:focus {
-    outline: 2px solid #F6B11C;
+  outline: 2px solid #f6b11c;
+}
+
+label {
+  color: #7c838a;
+  font-weight: 500;
+  font-size: 20px;
+}
 }
 
 label{
