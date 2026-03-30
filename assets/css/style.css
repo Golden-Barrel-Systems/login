@@ -1,5 +1,5 @@
 /* ===================== IMPORTS ===================== */
-@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
 
 /* ===================== GLOBAL ===================== */
 html,
@@ -9,7 +9,8 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Poppins";
+  font-family: "Inter";
+  letter-spacing: -4%;
   background-color: black;
 }
 
@@ -47,8 +48,8 @@ a {
 .title {
   margin: 0px;
   padding: 0px;
-  font-size: 26px;
-  font-weight: 600;
+  font-size: 56px;
+  font-weight: 400;
 }
 
 /* ===================== FORM ===================== */
@@ -72,9 +73,8 @@ a {
 }
 
 label {
-  font-size: 20px;
-  font-weight: 500;
-  color: #7c838a;
+  font-size: 24px;
+  color: #006F53;
 }
 
 .input {
@@ -84,7 +84,7 @@ label {
   border: none;
   border-radius: 20px;
   background-color: rgba(176, 186, 195, 0.4);
-  font-size: 18px;
+  font-size: 20px;
 }
 
 .input:focus {
@@ -100,12 +100,12 @@ label {
   font-size: 20px;
   font-weight: 500;
   color: black;
-  background-color: #F8A001;
+  background-color: #f8a001;
   cursor: pointer;
 }
 
 .btn-logar:hover {
-  background-color: rgba(248, 160, 1, 0.80);
+  background-color: rgba(248, 160, 1, 0.8);
 }
 
 .btn-logar:focus,
@@ -120,10 +120,10 @@ label {
 }
 
 .create-account span {
-  color: #F8A001;
+  color: #f8a001;
   cursor: pointer;
 }
 
 .create-account span:hover {
-  color: rgba(248, 160, 1, 0.80);
+  color: rgba(248, 160, 1, 0.8);
 }
