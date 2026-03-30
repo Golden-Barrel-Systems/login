@@ -100,12 +100,12 @@ label {
   font-size: 20px;
   font-weight: 500;
   color: black;
-  background-color: #f6b11c;
+  background-color: #F8A001;
   cursor: pointer;
 }
 
 .btn-logar:hover {
-  background-color: #ffc13b;
+  background-color: rgba(248, 160, 1, 0.80);
 }
 
 .btn-logar:focus,
@@ -120,10 +120,10 @@ label {
 }
 
 .create-account span {
-  color: #f6b11c;
+  color: #F8A001;
   cursor: pointer;
 }
 
 .create-account span:hover {
-  color: #ffc13b;
+  color: rgba(248, 160, 1, 0.80);
 }
